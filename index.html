@@ -1,11 +1,61 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-
+            Burger Palace
         </title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h3>Hey</h3>
+        <section id="header" class="">
+            <div class="bg-skew"></div>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <div class="far-left">
+                            <a class="logo" href="">
+                                <img class="logo-img" src="data:image/png;base64,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">
+                                <h3 class="logo-title">Bur<span >ger</span></h3>
+                            </a>
+                        </div>
+
+                        <div class="far-right">
+                        <li class="active">
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">Offers</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Cart</a>
+                        </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hero">
+                <div class="matrix">
+                    <div class="title">Rain or Shine,<br>it's time to dine.</div>
+                    <div class="sub-title">We cook & deliver the tastiest burgers<br>right now to your designated location</div>
+                    <div class="order-btn">
+                        <a href="">Order Now</a>
+                    </div>
+                </div>
+                <div class="matrix-img">
+                    <img class="bg-img" src="burger.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="quality"></section>
+        <section id="menu"></section>
+        <section id="carousel"></section>
+        <section id="play"></section>
+        <section id="footer"></section>
     </body>
 </html>
