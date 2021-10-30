@@ -1,3 +1,8 @@
+html, body{
+    overflow-x: hidden;
+    margin: 0px;
+}
+
 .navbar{
     flex-direction: column-reverse;
     display: flex;
@@ -180,9 +185,13 @@ nav a {
 
 .owlx{
     background-color: lightblue;
-    height: 45rem;
+    height: 35rem;
     margin-top: 22%;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .owl-image > img{
@@ -195,4 +204,29 @@ nav a {
 
 .owl-s{
     color: orange;
+    margin-top: auto;
+}
+
+.dot {
+    margin-top: 45%;
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .ply{
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    height: 45rem;
+    position: relative;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.large{
+    font-size: 3rem;
 }
