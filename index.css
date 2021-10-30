@@ -109,3 +109,97 @@ nav a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.melonie{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 45rem;
+    position: relative;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quality-item{
+    width: 30%;
+    border: 1px solid purple;
+    border-radius: 10px;
+    height: 40%;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.middle{
+    height: 50%;
+}
+
+.quality-image{
+    height: 2rem;
+}
+
+
+.menuq{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 45rem;
+    position: relative;
+    margin-top: 7.9rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mtitle{
+    text-align: center;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item{
+    width: 30%;
+    border-radius: 20px;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    margin-bottom: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.menu-image{
+    height: 8rem;
+}
+
+.bt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.head1{
+    background: linear-gradient(120deg, #fff 50%, orange 50%); 
+    height: 45rem;
+}
+
+.owlx{
+    background-color: lightblue;
+    height: 45rem;
+    margin-top: 22%;
+    position: relative;
+}
+
+.owl-image > img{
+    height: 80%;
+}
+
+
