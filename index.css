@@ -1,6 +1,7 @@
 html, body{
     overflow-x: hidden;
     margin: 0px;
+    font-family: 'Poppins';
 }
 
 .navbar{
@@ -19,7 +20,7 @@ nav > ul{
 
 .active {
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: #F6B400;
     text-decoration-thickness: 5px;
 }
 
@@ -40,6 +41,7 @@ nav a {
     float: left;
     width: 60%;
     justify-content: inherit;
+    padding-right: 2%;
 }
 
 .logo{
@@ -53,7 +55,7 @@ nav a {
 }
 
 .logo-title{
-    color: orange;
+    color: #F6B400;
     font-style: italic;
     font-size: 1.3rem;
 }
@@ -94,139 +96,10 @@ nav a {
 }
 
 .order-btn{
-    background-color: orange;
+    background-color: #F6B400;
     width: fit-content;
     padding: 3%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-.melonie{
-    display: flex;
-    flex-direction: row;
-    background-color: lightblue;
-    height: 45rem;
-    position: relative;
-    margin-top: auto;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.quality-item{
-    width: 30%;
-    border: 1px solid purple;
-    border-radius: 10px;
-    height: 40%;
-    text-align: center;
-    align-items: center;
-    padding-top: 5%;
-}
-
-.middle{
-    height: 50%;
-}
-
-.quality-image{
-    height: 2rem;
-}
-
-
-.menuq{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    height: 45rem;
-    position: relative;
-    margin-top: 7.9rem;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.mtitle{
-    text-align: center;
-}
-
-.menu-items{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.menu-item{
-    width: 30%;
-    border-radius: 20px;
-    height: 50%;
-    text-align: center;
-    align-items: center;
-    padding-top: 5%;
-    margin-bottom: 3%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-
-.menu-image{
-    height: 8rem;
-}
-
-.bt{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.head1{
-    background: linear-gradient(120deg, #fff 50%, orange 50%); 
-    height: 45rem;
-}
-
-.owlx{
-    background-color: lightblue;
-    height: 35rem;
-    margin-top: 22%;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.owl-image > img{
-    height: 80%;
-}
-
-.owl-title{
-    font-size: 2rem;
-}
-
-.owl-s{
-    color: orange;
-    margin-top: auto;
-}
-
-.dot {
-    margin-top: 45%;
-    height: 15px;
-    width: 15px;
-    background-color: orange;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-  .ply{
-    display: flex;
-    flex-direction: row;
-    background-color: orange;
-    height: 45rem;
-    position: relative;
-    margin-top: auto;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.large{
-    font-size: 3rem;
 }
