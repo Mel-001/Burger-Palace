@@ -103,3 +103,15 @@ nav a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.melonie{
+    display: flex;
+    flex-direction: row;
+    background-color: #edf5f1;
+    height: 45rem;
+    position: relative;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20%;
+}
