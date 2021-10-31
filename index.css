@@ -115,3 +115,20 @@ nav a {
     justify-content: space-around;
     margin-bottom: 20%;
 }
+.quality-item{
+    width: 30%;
+    border: 1px solid purple;
+    border-radius: 10px;
+    height: 40%;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.middle{
+    height: 50%;
+}
+
+.quality-image{
+    height: 2rem;
+}
